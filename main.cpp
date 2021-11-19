@@ -2,8 +2,17 @@
 # include <iostream>
 # include "Arrays.h"
 
+using namespace std;
+
 int main() {
 
-    std::cout << "Running C++ Data Structures..." << std::endl;
-    Arrays_1();
+    string module, number, func_name;
+
+    cout << "Running C++ Data Structures..." << endl;
+    cout << "Enter module name: ";
+    cin >> module;
+    cout << "Enter question number: " ;
+    cin >> number;
+    func_name = module + '_' + number;
+    array_map[func_name]();
 }
