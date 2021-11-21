@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    string module, number, func_name;
+/*    string module, number, func_name;
 
     cout << "Running C++ Data Structures..." << endl;
     cout << "Enter module name: ";
@@ -14,5 +14,8 @@ int main() {
     cout << "Enter question number: " ;
     cin >> number;
     func_name = module + '_' + number;
-    array_map[func_name]();
+    if("Arrays" == module)
+        array_map[func_name]();*/
+
+    Arrays_1();
 }
